@@ -11,15 +11,15 @@
 @class IMFGoogleAuthenticationHandler;
 
 /**
- *  To implement custom Google authentication you need to implememnt this protocol
+ *  Implements custom Google authentication
  */
 @protocol IMFGoogleAuthenticationDelegate <NSObject>
 
 /**
- *  Use this method to call the Google sign-in.
+ *  Calls Google sign-in
  *
- *  @param authenticationHandler The Google autentication handler.  This handler will receive the id token when sign-in is complete.
- *  @param clientId Client id receiveed from the dashboard.
+ *  @param authenticationHandler Google authentication handler.  This handler receives the id token when sign-in is complete.
+ *  @param clientId Client id received from the dashboard
  */
 
 - (void)authenticationHandler: (IMFGoogleAuthenticationHandler *) authenticationHandler didReceiveAuthenticationRequestForClientId:(NSString*)clientId;

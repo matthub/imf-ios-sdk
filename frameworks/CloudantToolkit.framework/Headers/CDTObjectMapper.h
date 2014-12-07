@@ -34,23 +34,23 @@
 -(id) documentToObject: (CDTDocumentRevision*) document error: (NSError**) error;
 
 /**
- Looks up the datatype for a given class.
- @param className The class to lookup
+ Looks up the data type for a given class.
+ @param className The name of the class to lookup
  @return The dataType for the class.
  */
 -(NSString*) dataTypeForClassName: (NSString*) className;
 
 /**
- Looks up the Class for a given datatype.
- @param dataType The datatype to lookup
- @return The class name for the datatype.
+ Looks up the Class for a given data type.
+ @param dataType The data type to lookup
+ @return The class name for the data type.
  */
 -(NSString*) classNameForDataType: (NSString*) dataType;
 
 /**
- Associates a datatype with a Class
- @param dataType The datatype to associate with the class
- @param className The class to be associated with the datatype
+ Associates a data type with a Class
+ @param dataType The data type to associate with the class
+ @param className The class to be associated with the dataType
  */
 -(void)setDataType:(NSString*)dataType forClassName: (NSString*)className;
 

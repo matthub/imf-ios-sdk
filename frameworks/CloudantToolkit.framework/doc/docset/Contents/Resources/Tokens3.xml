@@ -4,7 +4,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/cl/CDTQuery</TokenIdentifier>
-			<Abstract type="html">Stubs for CDT content.</Abstract>
+			<Abstract type="html">CDTQuery is a base class for various types of query.  CDTStore performQuery:completionHandler: takes a CDTQuery to perform.  More specific details and configurations can be found in subclasses.</Abstract>
 			<DeclaredIn>CDTQuery.h</DeclaredIn>
             
 			

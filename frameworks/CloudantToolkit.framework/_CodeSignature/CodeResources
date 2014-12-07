@@ -6,15 +6,15 @@
 	<dict>
 		<key>Headers/CDTCloudantQuery.h</key>
 		<data>
-		kZjUBLaaSPKE3ZmePUBWrvNpeLk=
+		HOPWxYytHY6WHizPGChBsT3qCxA=
 		</data>
 		<key>Headers/CDTDataObject.h</key>
 		<data>
-		18H1fEJT7sJ3F3AN3kdCwQ4HmG4=
+		grYDif6TJKmDFGXrGeEfZ+wwmfk=
 		</data>
 		<key>Headers/CDTDataObjectMapper.h</key>
 		<data>
-		1Eo3C8PScEXyiaYi/nAR3QSQtQQ=
+		WjgJhkrW8YXEbJynxiBn8UkYKxU=
 		</data>
 		<key>Headers/CDTDataObjectMetadata+Internal.h</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Headers/CDTDataObjectMetadata.h</key>
 		<data>
-		LzNW6Rif7Z3DXhtcQksPQZk54+g=
+		CqjshywHJqSO9og1TxJuKdDMezo=
 		</data>
 		<key>Headers/CDTObjectMapper.h</key>
 		<data>
-		hkkme7QwyD45dWEchKEultKZTs8=
+		nJoxkN2qsslf9+9pr5yQJkkZriI=
 		</data>
 		<key>Headers/CDTPropertySerializer.h</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Headers/CDTQuery.h</key>
 		<data>
-		p1GOOjiBNGR1LL3YGY1dtWB8ufY=
+		/Ml3a7NBdf7bK9jQwV1rBtiaj+I=
 		</data>
 		<key>Headers/CDTStore.h</key>
 		<data>
-		ZLIfEITCHImGCK6R3YzHr9SPKyY=
+		5htwJx01Vt6Vaw/hWKYE+o76/YA=
 		</data>
 		<key>Headers/CloudantToolkit.h</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Headers/IMFDataManager.h</key>
 		<data>
-		kIokGq1mwCwwbRXZgu+XuPm1FgI=
+		jdmo1i6NMDsQ/TINa+vs5kBbIBE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -61,15 +61,15 @@
 	<dict>
 		<key>Headers/CDTCloudantQuery.h</key>
 		<data>
-		kZjUBLaaSPKE3ZmePUBWrvNpeLk=
+		HOPWxYytHY6WHizPGChBsT3qCxA=
 		</data>
 		<key>Headers/CDTDataObject.h</key>
 		<data>
-		18H1fEJT7sJ3F3AN3kdCwQ4HmG4=
+		grYDif6TJKmDFGXrGeEfZ+wwmfk=
 		</data>
 		<key>Headers/CDTDataObjectMapper.h</key>
 		<data>
-		1Eo3C8PScEXyiaYi/nAR3QSQtQQ=
+		WjgJhkrW8YXEbJynxiBn8UkYKxU=
 		</data>
 		<key>Headers/CDTDataObjectMetadata+Internal.h</key>
 		<data>
@@ -77,11 +77,11 @@
 		</data>
 		<key>Headers/CDTDataObjectMetadata.h</key>
 		<data>
-		LzNW6Rif7Z3DXhtcQksPQZk54+g=
+		CqjshywHJqSO9og1TxJuKdDMezo=
 		</data>
 		<key>Headers/CDTObjectMapper.h</key>
 		<data>
-		hkkme7QwyD45dWEchKEultKZTs8=
+		nJoxkN2qsslf9+9pr5yQJkkZriI=
 		</data>
 		<key>Headers/CDTPropertySerializer.h</key>
 		<data>
@@ -89,11 +89,11 @@
 		</data>
 		<key>Headers/CDTQuery.h</key>
 		<data>
-		p1GOOjiBNGR1LL3YGY1dtWB8ufY=
+		/Ml3a7NBdf7bK9jQwV1rBtiaj+I=
 		</data>
 		<key>Headers/CDTStore.h</key>
 		<data>
-		ZLIfEITCHImGCK6R3YzHr9SPKyY=
+		5htwJx01Vt6Vaw/hWKYE+o76/YA=
 		</data>
 		<key>Headers/CloudantToolkit.h</key>
 		<data>
@@ -105,7 +105,7 @@
 		</data>
 		<key>Headers/IMFDataManager.h</key>
 		<data>
-		kIokGq1mwCwwbRXZgu+XuPm1FgI=
+		jdmo1i6NMDsQ/TINa+vs5kBbIBE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>

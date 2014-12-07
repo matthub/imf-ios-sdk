@@ -9,12 +9,12 @@
 @class CDTDataObjectMetadata;
 
 /**
-Provides the basic APIs that are required by the SDK to persist objects to the cloud.
+Provides the basic metadata APIs that are required by the SDK to persist objects to the cloud.
  */
 @protocol CDTDataObject
 
 /**
- Stores metadata about the CDTDataObject that is being saved.  This property is set directly by the SDK.
+ Stores metadata about the CDTDataObject that is being saved.  This property is set directly by the SDK.  
  */
 @property (strong, nonatomic, readwrite) CDTDataObjectMetadata *metadata;
 

@@ -23,6 +23,8 @@
 @synthesize facebookAuthenticationDelegate, currentContext;
 
 NSString *const FACEBOOK_REALM = @"wl_facebookRealm";
+NSString *const ACCESS_TOKEN_KEY = @"accessToken";
+NSString *const FACEBOOK_APP_ID_KEY = @"facebookAppId";
 
 + (IMFFacebookAuthenticationHandler*) sharedInstance {
     static IMFFacebookAuthenticationHandler *sharedInstance = nil;
@@ -43,7 +45,7 @@ NSString *const FACEBOOK_REALM = @"wl_facebookRealm";
 }
 
 - (void) didFinishFacebookAuthenticationWithAccessToken:(NSString*) facebookAccessToken {
-    [currentContext submitAuthenticationChallengeAnswer:[NSDictionary dictionaryWithObject:facebookAccessToken forKey:@"accessToken"]];
+    [currentContext submitAuthenticationChallengeAnswer:[NSDictionary dictionaryWithObject:facebookAccessToken forKey:ACCESS_TOKEN_KEY]];
 }
 
 - (void) didFailFacebookAuthenticationWithUserInfo:(NSDictionary*) userInfo{
@@ -52,7 +54,7 @@ NSString *const FACEBOOK_REALM = @"wl_facebookRealm";
 }
 
 - (void) authenticationContext:(id<IMFAuthenticationContext>)context didReceiveAuthenticationChallenge:(NSDictionary *)challenge {
-    NSString *appId = [challenge valueForKey:@"facebookClientId"];
+    NSString *appId = [challenge valueForKey:FACEBOOK_APP_ID_KEY];
    
     [self setCurrentContext:context];
     [[self facebookAuthenticationDelegate] authenticationHandler:self didReceiveAuthenticationRequestForAppId:appId];

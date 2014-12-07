@@ -54,14 +54,14 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/intfm/CDTObjectMapper/dataTypeForClassName:</TokenIdentifier>
-			<Abstract type="html">Looks up the datatype for a given class.</Abstract>
+			<Abstract type="html">Looks up the data type for a given class.</Abstract>
 			<DeclaredIn>CDTObjectMapper.h</DeclaredIn>
 			
 			<Declaration>- (NSString *)dataTypeForClassName:(NSString *)className</Declaration>
 			<Parameters>
 				<Parameter>
 					<Name>className</Name>
-					<Abstract type="html">The class to lookup</Abstract>
+					<Abstract type="html">The name of the class to lookup</Abstract>
 				</Parameter>
 			</Parameters>
 			<ReturnValue><Abstract type="html">The dataType for the class.</Abstract></ReturnValue>
@@ -71,34 +71,34 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/intfm/CDTObjectMapper/classNameForDataType:</TokenIdentifier>
-			<Abstract type="html">Looks up the Class for a given datatype.</Abstract>
+			<Abstract type="html">Looks up the Class for a given data type.</Abstract>
 			<DeclaredIn>CDTObjectMapper.h</DeclaredIn>
 			
 			<Declaration>- (NSString *)classNameForDataType:(NSString *)dataType</Declaration>
 			<Parameters>
 				<Parameter>
 					<Name>dataType</Name>
-					<Abstract type="html">The datatype to lookup</Abstract>
+					<Abstract type="html">The data type to lookup</Abstract>
 				</Parameter>
 			</Parameters>
-			<ReturnValue><Abstract type="html">The class name for the datatype.</Abstract></ReturnValue>
+			<ReturnValue><Abstract type="html">The class name for the data type.</Abstract></ReturnValue>
 			<Anchor>//api/name/classNameForDataType:</Anchor>
             <NodeRef refid="9"/>
 		</Token>
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/intfm/CDTObjectMapper/setDataType:forClassName:</TokenIdentifier>
-			<Abstract type="html">Associates a datatype with a Class</Abstract>
+			<Abstract type="html">Associates a data type with a Class</Abstract>
 			<DeclaredIn>CDTObjectMapper.h</DeclaredIn>
 			
 			<Declaration>- (void)setDataType:(NSString *)dataType forClassName:(NSString *)className</Declaration>
 			<Parameters>
 				<Parameter>
 					<Name>dataType</Name>
-					<Abstract type="html">The datatype to associate with the class</Abstract>
+					<Abstract type="html">The data type to associate with the class</Abstract>
 				</Parameter><Parameter>
 					<Name>className</Name>
-					<Abstract type="html">The class to be associated with the datatype</Abstract>
+					<Abstract type="html">The class to be associated with the dataType</Abstract>
 				</Parameter>
 			</Parameters>
 			

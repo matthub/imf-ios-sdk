@@ -93,7 +93,7 @@ NSString *const GOOGLE_REALM = @"wl_googleRealm";
 }
 
 -(void) handleDidBecomeActive {
-     // If google sign-in interupted report failure 
+     // If Google sign-in interrupted, report failure 
     if (isGoogleSigninInProgress){
         [[GPPSignIn sharedInstance] disconnect];
         [self didFailGoogleAuthenticationWithUserInfo :[NSDictionary dictionaryWithObject:@"Google sign-in did not finish" forKey:@"error"]];

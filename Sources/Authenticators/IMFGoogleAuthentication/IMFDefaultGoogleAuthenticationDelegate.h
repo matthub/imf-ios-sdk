@@ -11,8 +11,12 @@
 #import <GooglePlus/GooglePlus.h>
 
 /**
- *  Deafault Google authentication. 
- *  To use the default Google delegate call to: [[IMFGoogleAuthenticationHandler sharedInstance] registerWithDefaultDelegate] before any call to a protected resource.
+ *  Enables default Google authentication
+ * 
+ *  To use a default Google delegate, call <p>
+ *  <code>[[IMFGoogleAuthenticationHandler sharedInstance] registerWithDefaultDelegate]</code> 
+ *  <p>
+ *  before any call to a protected resource.
  */
 @interface IMFDefaultGoogleAuthenticationDelegate : NSObject <IMFGoogleAuthenticationDelegate, GPPSignInDelegate>
 

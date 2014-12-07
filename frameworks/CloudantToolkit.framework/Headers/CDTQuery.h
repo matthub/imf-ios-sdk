@@ -8,7 +8,7 @@
 #import <Foundation/Foundation.h>
 
 /**
-Stubs for CDT content.
+CDTQuery is a base class for various types of query.  CDTStore performQuery:completionHandler: takes a CDTQuery to perform.  More specific details and configurations can be found in subclasses.
 */
 @interface CDTQuery : NSObject
 

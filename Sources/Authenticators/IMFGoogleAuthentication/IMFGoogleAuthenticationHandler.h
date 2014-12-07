@@ -13,57 +13,61 @@
 
 @protocol IMFGoogleAuthenticationDelegate;
 /**
- *  This class provides functionalities to be able connect to IMF server with Google
+ *  Provides functionalities for connecting the IMF server with Google
  */
 @interface IMFGoogleAuthenticationHandler : NSObject <IMFAuthenticationDelegate> {
     
 }
 
 /**
- *  Singletone for IMFGoogleAuthenticationHandler
+ *  Singleton for IMFGoogleAuthenticationHandler
  *
- *  @return the shared instance of IMFGoogleAuthenticationHandler
+ *  @return Shared instance of IMFGoogleAuthenticationHandler
  */
 +(IMFGoogleAuthenticationHandler*) sharedInstance;
 
 /**
- *  Call this method before any request to a protected resource.  
- *  This function registers the default delegate which will do the Google authentication without writing additional code.
+ *  Registers the default delegate that does the Google authentication, without writing additional code
+ * 
+ *  Call this method before any request to a protected resource.
  */
 -(void) registerWithDefaultDelegate;
 
 /**
- *  Use this method in case needing to register custom Google delegate.
+ *  Registers a custom Google delegate
  *
- *  @param googleAuthenticationDelegate The custom google authentication delgate.
+ *  @param googleAuthenticationDelegate Custom Google authentication delegate
  */
 -(void) registerWithDelegate:(id<IMFGoogleAuthenticationDelegate>) googleAuthenticationDelegate;
 
 /**
- *  Call this method to pass back the googleId to the authorization server.
+ *  Passes the googleIdToken back to the IMF authorization server
  *
- *  @param googleIdToken The Google id token received as result of the Google authentication.
+ *  @param googleIdToken Google id token received as a result of the Google authentication
  */
 -(void) didFinishGoogleAuthenticationWithIdToken:(NSString*) googleIdToken;
 
 /**
- *  Call this method if receiving a failure when trying to get the Google id token.
+ *  Called whenever there was a problem receiving the Google id token
  *
- *  @param userInfo - error user info
+ *  @param userInfo Error user info
  */
 -(void) didFailGoogleAuthenticationWithUserInfo:(NSDictionary*) userInfo;
 
 /**
- *  Add this method to your application delegate applicationDidBecomeActive
- *  This method will able to continue working with the application in case user start the login to Google but not finalize it.
+ *  Enables continued work with the application in case the user starts the login to Google but does not complete it
+ * 
+ *  Add this method to your application delegate applicationDidBecomeActive.
+ *  
  */
 -(void) handleDidBecomeActive;
 
 /**
- *  Add this method to your application delegate openURL
- *  This method allows to continue using the application in case the user starts the login to Google but does not finalize it.
- *
- *  @param isGoogleSigninInURL - is the URL scheme belong to Google
+ *  Enables continued work with the application in case the user starts the login to Google but does not complete it.
+ *  
+ *  Add this method to your application delegate openURL.
+ *  
+ *  @param isGoogleSigninInURL Indicates whether the URL scheme belongs to Google
  */
 - (void) handleOpenURL:(BOOL) isGoogleURL;
 

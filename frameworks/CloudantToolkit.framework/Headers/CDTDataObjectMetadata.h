@@ -11,13 +11,13 @@
  */
 @interface CDTDataObjectMetadata : NSObject
 
-/** Specifies a string that uniquely identifies this object. (read-only) */
+/** Specifies a string that uniquely identifies this object. This will be the docId of the CDTDocumentRevision that is persisted. */
 @property (nonatomic, readonly) NSString	*documentId;
 
-/** Specifies a string that identifies the revision for this object. (read-only) */
+/** Specifies a string that identifies the revision for this object. This will be the revId of the CDTDocumentRevision that is persisted. */
 @property (nonatomic, readonly) NSString    *revisionId;
 
-/** Indicates if this revision has been deleted. */
+/** Indicates if this revision has been deleted. This also corresponds to the CDTDocumentRevision deleted field.*/
 @property (nonatomic, readonly) BOOL        deleted;
 
 @end

@@ -16,22 +16,30 @@
 @implementation IMFDefaultFacebookAuthenticationDelegate
 
 - (void) authenticationHandler:(IMFFacebookAuthenticationHandler *)authenticationHandler didReceiveAuthenticationRequestForAppId:(NSString *)appId {
+    // Verify that the app Id defined in the .plist file is identical to the one requested by the IMF server.
+    if (![appId isEqualToString:[FBSettings defaultAppID]]){
+        [authenticationHandler didFailFacebookAuthenticationWithUserInfo:
+         [NSDictionary dictionaryWithObject:@"App Id from IMF server doesn't match the one defined in the .plist file" forKey:NSLocalizedDescriptionKey]];
+        return;
+    }
+    
+    // Use the Facebook SDK to login.
     [FBSession openActiveSessionWithReadPermissions:@[@"public_profile"]
                                        allowLoginUI:YES
                                   completionHandler:
      ^(FBSession *session, FBSessionState state, NSError *error) {
          if (!error && state == FBSessionStateOpen){
+             // If login is successful, pass the access token to the authentication delegate.
              NSString *accessToken = [[session accessTokenData] accessToken];
              [authenticationHandler didFinishFacebookAuthenticationWithAccessToken: accessToken];
              return;
          }
          
-         if (state == FBSessionStateClosed || state == FBSessionStateClosedLoginFailed){
-             [FBSession.activeSession closeAndClearTokenInformation];
-             NSLog(@"Could not get an access token from facebook: %@", [error userInfo]);
-             
-             [authenticationHandler didFailFacebookAuthenticationWithUserInfo: [error userInfo]];
-         }
+         // Login was not successful. Fail the authentication.
+         [FBSession.activeSession closeAndClearTokenInformation];
+         NSLog(@"Could not get an access token from facebook: %@", [error userInfo]);
+         
+         [authenticationHandler didFailFacebookAuthenticationWithUserInfo: [error userInfo]];
      }];
 }
 
