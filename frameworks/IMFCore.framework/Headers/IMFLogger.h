@@ -266,4 +266,13 @@ typedef NS_ENUM(NSInteger, IMFLogLevel) {
  */
 +(void) captureUncaughtExceptions;
 
+/**
+ Logs a message at a specific IMFLogLevel with string replacement using arguments passed. It also attaches a dictionary of user information to the log message that is available when logs are persisted and sent to the server.
+  @param level IMFLogLevel Log level used.
+  @param message String Message logged.
+  @param arguments va_list Arguments used for string replacements in the message parameter.
+  @param userInfo NSDictionary Additional data appended to the log message.
+ */
+-(void) logWithLevel:(IMFLogLevel)level message:(NSString*) message args:(va_list) arguments userInfo:(NSDictionary*) userInfo;
+
 @end

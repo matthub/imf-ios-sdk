@@ -114,6 +114,7 @@ extern NSString* const KEY_METADATA_RC;
 extern NSString* const KEY_METADATA_SIZE;
 extern NSString* const KEY_METADATA_IS_ENCRYPTED;
 
+extern NSString* const SOURCE_SWIFT;
 extern NSString* const SOURCE_OBJECTIVE_C;
 extern NSString* const SOURCE_JAVASCRIPT;
 
