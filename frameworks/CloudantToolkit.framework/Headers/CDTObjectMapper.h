@@ -6,8 +6,8 @@
  */
 
 #import <Foundation/Foundation.h>
-#import <CloudantSync.h>
 @class CDTStore;
+@class CDTDocumentRevision;
 
 #define CDT_DATATYPE_KEY    @"@datatype"
 #define CDT_DATATYPE_INDEX_NAME @"cdtdatatypeindex"
