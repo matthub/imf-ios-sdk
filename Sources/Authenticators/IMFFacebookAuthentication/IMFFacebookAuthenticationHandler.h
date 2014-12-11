@@ -18,7 +18,7 @@
 /**
  * Singleton for IMFFacebookAuthenticationHandler.
  *
- * @return The shared intance of IMFFacebookAuthenticationHandler.
+ * @return The shared instance of IMFFacebookAuthenticationHandler.
  */
 + (IMFFacebookAuthenticationHandler*) sharedInstance;
 
@@ -30,21 +30,21 @@
 /**
  * Registers this handler to respond to Facebook authentication challenges using a custom delegate.
  *
- * @param facebookAuthenticationDelegate The custom authentication delegate.
+ * @param facebookAuthenticationDelegate Custom authentication delegate.
  */
 - (void) registerWithDelegate:(id<IMFFacebookAuthenticationDelegate>)facebookAuthenticationDelegate;
 
 /**
  * Passes the Facebook access token back to the IMF authorization server
  *
- * @param facebookAccessToken The Facebook access token.
+ * @param facebookAccessToken Facebook access token.
  */
 - (void) didFinishFacebookAuthenticationWithAccessToken:(NSString*) facebookAccessToken;
 
 /**
  * Called whenever there was a problem receiving the Facebook id token
  *
- * @param userInfo The Error user info.
+ * @param userInfo Error user information
  */
 - (void) didFailFacebookAuthenticationWithUserInfo:(NSDictionary*) userInfo;
 

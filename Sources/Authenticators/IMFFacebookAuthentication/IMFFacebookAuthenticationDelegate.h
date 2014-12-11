@@ -13,10 +13,10 @@
 @protocol IMFFacebookAuthenticationDelegate
 
 /**
- * Signs-in to facebook and sends the Facebook access token back to the authentication handler.
+ * Signs-in to Facebook and sends the Facebook access token back to the authentication handler.
  *
  * @param authenticationHandler Facebook authentication handler.  This handler receives the access token when sign-in is complete.
- * @param appId                 The Facebook app Id.
+ * @param appId                 The Facebook app id.
  */
 - (void)authenticationHandler:(IMFFacebookAuthenticationHandler*)authenticationHandler didReceiveAuthenticationRequestForAppId:(NSString*)appId;
 

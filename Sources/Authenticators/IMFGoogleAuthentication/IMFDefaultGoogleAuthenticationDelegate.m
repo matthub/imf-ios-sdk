@@ -28,7 +28,7 @@
         NSString *idToken = [[auth parameters] valueForKey:@"id_token"];
         [[IMFGoogleAuthenticationHandler sharedInstance] didFinishGoogleAuthenticationWithIdToken:idToken];
     } else {
-        NSLog(@"Cannot recive id token from google %@", [error description]);
+        NSLog(@"Cannot receive id token from google %@", [error description]);
         [[IMFGoogleAuthenticationHandler sharedInstance] didFailGoogleAuthenticationWithUserInfo:error.userInfo];
     }
 }
