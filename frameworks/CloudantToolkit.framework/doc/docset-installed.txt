@@ -1,4 +1,4 @@
 Documentation set was installed to Xcode!
 
 Path: /Users/build/Library/Developer/Shared/Documentation/DocSets/IBM.CloudantToolkit.docset
-Time: 2014-12-11 17:16:11 +0000
+Time: 2014-12-12 05:17:42 +0000
