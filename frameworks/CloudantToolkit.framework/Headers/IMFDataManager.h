@@ -6,8 +6,12 @@
  */
 
 #import <Foundation/Foundation.h>
-#import <CloudantSync.h>
 #import <IMFCore/IMFCore.h>
+
+@class CDTReplicatorFactory;
+@class CDTDatastoreManager;
+@class CDTPushReplication;
+@class CDTPullReplication;
 @class CDTStore;
 @protocol CDTObjectMapper;
 

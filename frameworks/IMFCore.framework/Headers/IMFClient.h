@@ -11,7 +11,7 @@
 @protocol   IMFAuthenticationDelegate;
 
 /**
- *  the IMFClient error domain
+ *  IMFClient error domain
  */
 extern NSString * const IMFClientErrorDomain;
 
@@ -24,63 +24,65 @@ enum {
 };
 
 /**
- *  The entery point to worklight
+ *  The entry point to MobileFirst 
  */
 @interface IMFClient : NSObject
 
 /**
- * Specifies base backend URL
+ * Specifies base back end URL
  */
 @property (readonly) NSString* backendRoute;
 
 /**
- * Specifies backend application id.
+ * Specifies back end application id.
  */
 @property (readonly) NSString* backendGUID;
 
 /**
- * Specifies default request time out.
+ * Specifies default request timeout.
  */
 @property (readwrite) NSTimeInterval defaultRequestTimeoutInterval;
 
 /**
- *
+ * Gets the instance of <em>IMFClient</em> (singleton)
  */
 + (IMFClient*)sharedInstance;
 
 /**
  * Sets the base URL for the authorization server.
+ * <p>
  * This method should be called before you send the first request that requires authorization.
- * @param url Specifies the base URL for the authorization server.
- * @param backendGUID Specifies the GUID of application
+ * @param url Specifies the base URL for the authorization server
+ * @param backendGUID Specifies the GUID of the application
  */
 -(void) initializeWithBackendRoute: (NSString*)backendRoute backendGUID:(NSString*)backendGUID;
 
 /**
- * You use this method to add a global header, which is sent on each request.
- * Each IMFRequest instance will use this header as an HTTP header
+ * Add a global header that is sent on each request
+ * <p>
+ * Each <em>IMFRequest</em> instance will use this header as an HTTP header.
  *
- * @param headerName The header name/key.
- * @param value The header value.
+ * @param headerName Header name/key
+ * @param value Header value
  */
 -(void) addGlobalHeader: (NSString *) headerName headerValue:(NSString *)value;
 
 /**
  * Removes a global header from the list of global headers to be added to all requests.
- * @param headerName The name of header to remove.
+ * @param headerName Header to remove
  */
 - (void) removeGlobalHeader:(NSString*)headerName;
 
 /**
- * Registers a delegate that will handle authentication for the specified realm.
- * @param authenticationDelegate A delegate that will handle authentication challeneges.
- * @param realm The name of realm.
+ * Registers a delegate that will handle authentication for the specified realm
+ * @param authenticationDelegate Delegate that will handle authentication challenges
+ * @param realm Realm name
  */
 - (void) registerAuthenticationDelegate:(id<IMFAuthenticationDelegate>)authenticationDelegate forRealm:(NSString*)realm;
 
 /**
- * Unregisters an authentication delegate for the specified realm.
- * @param realm The name of realm.
+ * Unregisters an authentication delegate for the specified realm
+ * @param realm Realm name
  */
 - (void) unregisterAuthenticationDelegateForRealm:(NSString*)realm;
 
@@ -89,7 +91,7 @@ enum {
 @interface IMFCore : NSObject
 
 /**
- * Returns the current IMFCore version
+ * Returns the current <em>IMFCore<em> version
  */
 +(NSString*) version;
 

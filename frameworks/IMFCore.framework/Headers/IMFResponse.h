@@ -14,30 +14,33 @@
 
 #import <Foundation/Foundation.h>
 /**
- *  the respsponse from the server
+ *  Response from the server
  */
 @interface IMFResponse : NSObject
 
 /**
-*  Retrieves the HTTP status from the response.
+*  Retrieves the HTTP status from the response
 */
 @property (nonatomic) int httpStatus;
 /**
- *  Retrieves the Headers from the response.
+ *  Retrieves the headers from the response
  */
 @property (nonatomic, strong) NSDictionary* responseHeaders;
 /**
- * The original response text from the server.
+ * Original response text from the server
  */
 @property (nonatomic, strong) NSString* responseText;
 /**
- * This method returns the value NSDictionary in case the response is a JSON response, otherwise it returns the value nil. NSDictionary represents the root of the JSON object.
+ * Returns the value <em>NSDictionary</em> in case the response is a JSON response, 
+ * otherwise it returns the value nil. 
+ * <p>
+ * <em>NSDictionary</em> represents the root of the JSON object.
  *
  **/
 @property (nonatomic, strong) NSDictionary* responseJson;
 
 /**
- *  Return the authorization header if exist, else retun nil
+ *  Return the authorization header if it exists, else returns nil
  */
 @property (nonatomic, readonly) NSString* authorizationHeader;
 
