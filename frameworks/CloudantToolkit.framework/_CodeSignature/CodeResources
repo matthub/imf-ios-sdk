@@ -46,7 +46,7 @@
 		</data>
 		<key>Headers/CloudantUnify.h</key>
 		<data>
-		SXzHLuqTTld0zfgs3Ifssg7OZe0=
+		8ZjJ4dvhN1RSbjV5EdocXKlbjxU=
 		</data>
 		<key>Headers/IMFDataManager.h</key>
 		<data>
@@ -55,6 +55,10 @@
 		<key>Modules/module.modulemap</key>
 		<data>
 		dF758FnlukWTBcPDZ/KZAjlrYD0=
+		</data>
+		<key>buildappledocs.sh</key>
+		<data>
+		7DAAdeFJnNFk94+X+YzqGTEa17M=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -101,7 +105,7 @@
 		</data>
 		<key>Headers/CloudantUnify.h</key>
 		<data>
-		SXzHLuqTTld0zfgs3Ifssg7OZe0=
+		8ZjJ4dvhN1RSbjV5EdocXKlbjxU=
 		</data>
 		<key>Headers/IMFDataManager.h</key>
 		<data>
@@ -110,6 +114,10 @@
 		<key>Modules/module.modulemap</key>
 		<data>
 		dF758FnlukWTBcPDZ/KZAjlrYD0=
+		</data>
+		<key>buildappledocs.sh</key>
+		<data>
+		7DAAdeFJnNFk94+X+YzqGTEa17M=
 		</data>
 	</dict>
 	<key>rules</key>

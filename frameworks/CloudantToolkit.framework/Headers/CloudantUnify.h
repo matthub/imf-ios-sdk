@@ -7,12 +7,13 @@
 
 #import <UIKit/UIKit.h>
 
+#import <CloudantToolkit/CDTDataObjectMetadata.h>
+#import <CloudantToolkit/CDTDataObjectMetadata+Internal.h>
 #import <CloudantToolkit/CDTStore.h>
 #import <CloudantToolkit/CDTQuery.h>
 #import <CloudantToolkit/CDTCloudantQuery.h>
 #import <CloudantToolkit/CDTObjectMapper.h>
 #import <CloudantToolkit/CDTDataObject.h>
-#import <CloudantToolkit/CDTDataObjectMetadata.h>
 #import <CloudantToolkit/CDTDataObjectMapper.h>
 #import <CloudantToolkit/CDTPropertySerializer.h>
 
