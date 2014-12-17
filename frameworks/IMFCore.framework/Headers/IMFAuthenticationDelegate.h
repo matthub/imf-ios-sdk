@@ -20,23 +20,23 @@
 @protocol IMFAuthenticationDelegate <NSObject>
 
 /**
- * Called when authentication challenge was recived.
- @param context Authentication context.
- @param challenge Dictionary with challenge data.
+ * Called when authentication challenge was received
+ @param context Authentication context
+ @param challenge Dictionary with challenge data
  */
 - (void)authenticationContext:(id<IMFAuthenticationContext>)context didReceiveAuthenticationChallenge:(NSDictionary*)challenge;
 
 /**
- * Called when authentication succeeded.
- @param context Authentication context.
- @param userInfo Dictionary with extended data about authentication success.
+ * Called when authentication succeeded
+ @param context Authentication context
+ @param userInfo Dictionary with extended data about authentication success
  */
 - (void)authenticationContext:(id<IMFAuthenticationContext>)context didReceiveAuthenticationSuccess:(NSDictionary *)userInfo;
 
 /**
  * Called when authentication failed.
- @param context Authentication context.
- @param userInfo Dictionary with extended data about authentication failure.
+ @param context Authentication context
+ @param userInfo Dictionary with extended data about authentication failure
  */
 - (void)authenticationContext:(id<IMFAuthenticationContext>)context didReceiveAuthenticationFailure:(NSDictionary*)userInfo;
 

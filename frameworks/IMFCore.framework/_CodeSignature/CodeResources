@@ -10,11 +10,11 @@
 		</data>
 		<key>Headers/IMFAuthenticationContext.h</key>
 		<data>
-		7zmTArXldgXqali42q+KMPo/L/M=
+		Apt2bveqBjxGXasUBkDS+6vKqqc=
 		</data>
 		<key>Headers/IMFAuthenticationDelegate.h</key>
 		<data>
-		iuHw80m5zqsl0mP+UwoSvac1GDk=
+		6LAjoVvUbBKRbAAkpYjKo5VWeXU=
 		</data>
 		<key>Headers/IMFAuthorizationManager.h</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Headers/IMFClient.h</key>
 		<data>
-		lQjAJ5/L6GtbioLhoZWNviDr6e0=
+		fOY4eqKEz3/w8jhRFKPrKFO+Tyg=
 		</data>
 		<key>Headers/IMFCore.h</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Headers/IMFLogger.h</key>
 		<data>
-		YC9tFrBWX7qCfDR/rZb/GVK3uQ0=
+		rcnde4zyxGSWeMVveop+XWnoyJM=
 		</data>
 		<key>Headers/IMFLoggerMacros.h</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Headers/IMFResourceRequest.h</key>
 		<data>
-		LUCBRgLo5/GDhTcbz+LTj6+3FHI=
+		YMIxaxO+Sd+W7ZcT65hCdUVKB+Y=
 		</data>
 		<key>Headers/IMFResponse.h</key>
 		<data>
-		+xo7AkS7lrmx5BMy5rWjAgZ4HF0=
+		9N11JV9ZxvMhn5V0TCYDgpAvfIM=
 		</data>
 		<key>Headers/OCLogger+Constants.h</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Headers/WLTouchIdSecurityUtils.h</key>
 		<data>
-		vXbZUCcNE3qeLDC0C5GfCr5/htw=
+		ZHUMyPQq5NVnZ9qmQOYVpjVMjFo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -65,11 +65,11 @@
 		</data>
 		<key>Headers/IMFAuthenticationContext.h</key>
 		<data>
-		7zmTArXldgXqali42q+KMPo/L/M=
+		Apt2bveqBjxGXasUBkDS+6vKqqc=
 		</data>
 		<key>Headers/IMFAuthenticationDelegate.h</key>
 		<data>
-		iuHw80m5zqsl0mP+UwoSvac1GDk=
+		6LAjoVvUbBKRbAAkpYjKo5VWeXU=
 		</data>
 		<key>Headers/IMFAuthorizationManager.h</key>
 		<data>
@@ -77,7 +77,7 @@
 		</data>
 		<key>Headers/IMFClient.h</key>
 		<data>
-		lQjAJ5/L6GtbioLhoZWNviDr6e0=
+		fOY4eqKEz3/w8jhRFKPrKFO+Tyg=
 		</data>
 		<key>Headers/IMFCore.h</key>
 		<data>
@@ -85,7 +85,7 @@
 		</data>
 		<key>Headers/IMFLogger.h</key>
 		<data>
-		YC9tFrBWX7qCfDR/rZb/GVK3uQ0=
+		rcnde4zyxGSWeMVveop+XWnoyJM=
 		</data>
 		<key>Headers/IMFLoggerMacros.h</key>
 		<data>
@@ -93,11 +93,11 @@
 		</data>
 		<key>Headers/IMFResourceRequest.h</key>
 		<data>
-		LUCBRgLo5/GDhTcbz+LTj6+3FHI=
+		YMIxaxO+Sd+W7ZcT65hCdUVKB+Y=
 		</data>
 		<key>Headers/IMFResponse.h</key>
 		<data>
-		+xo7AkS7lrmx5BMy5rWjAgZ4HF0=
+		9N11JV9ZxvMhn5V0TCYDgpAvfIM=
 		</data>
 		<key>Headers/OCLogger+Constants.h</key>
 		<data>
@@ -105,7 +105,7 @@
 		</data>
 		<key>Headers/WLTouchIdSecurityUtils.h</key>
 		<data>
-		vXbZUCcNE3qeLDC0C5GfCr5/htw=
+		ZHUMyPQq5NVnZ9qmQOYVpjVMjFo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>

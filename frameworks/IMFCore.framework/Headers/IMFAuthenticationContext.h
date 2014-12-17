@@ -16,19 +16,19 @@
 @protocol IMFAuthenticationContext <NSObject>
 
 /**
- * Submits authentication challenge answer.
- @param answer Dicitionary with challenge answers.
+ * Submits authentication challenge response
+ @param answer Dictionary with challenge responses
  */
 -(void) submitAuthenticationChallengeAnswer:(NSDictionary*) answer;
 
 /**
- * Informs about authentication success.
+ * Informs client about successful authentication
  */
 -(void) submitAuthenticationSuccess;
 
 /**
- * Informs about authentication failure.
- @param userInfo Dictionary with extended information about failure.
+ * Informs client about failed authentication
+ @param userInfo Dictionary with extended information about failure
  */
 -(void) submitAuthenticationFailure:(NSDictionary*) userInfo;
 

@@ -33,42 +33,42 @@ enum {
 @interface IMFResourceRequest : NSObject
 
 /**
- * Returns an IMFResourceRequest object initialized with path. The path should not be nil, otherwise other methods will fail.
- * @param path Path to resource.
- * @return IMFResourceRequest initialized with path to resource.
+ * Returns an <em>IMFResourceRequest</em> object initialized with path. The path should not be nil, otherwise other methods will fail.
+ * @param path Path to resource
+ * @return <em>IMFResourceRequest</em> initialized with path to resource
  */
 +(IMFResourceRequest*)requestWithPath:(NSString*)path;
 
 /**
- * Returns an IMFResourceRequest object initialized with path and request method. The path should not be nil, otherwise other methods will fail.
- * @param path Path to resource.
- * @param method Request method. It can be any of allowed HTTP methods (for example "GET", "POST", "PUT", "DELETE", "HEAD").
- * @return IMFResourceRequest initialized with path to resource and request method.
+ * Returns an <em>IMFResourceRequest</em> object initialized with path and request method. The path should not be nil, otherwise other methods will fail.
+ * @param path Path to resource
+ * @param method Request method. It can be any of the permitted HTTP methods, for example "GET", "POST", "PUT", "DELETE", "HEAD".
+ * @return <em>IMFResourceRequest</em> initialized with path to resource and request method
  */
 +(IMFResourceRequest*)requestWithPath:(NSString*)path method:(NSString*)method;
 
 /**
- * Returns an IMFResourceRequest object initialized with path, request method and request parameters. The path should not be nil, otherwise other methods will fail.
+ * Returns an <em>IMFResourceRequest</em> object initialized with path, request method and request parameters. The path should not be nil, otherwise other methods will fail.
  * @param path Path to resource
- * @param method Request method. It can be any of allowed HTTP methods (for example "GET", "POST", "PUT", "DELETE", "HEAD").
- * @param parameters Request parameters.
- * @return IMFResourceRequest initialized with path to resource, request method and request parameters.
+ * @param method Request method. It can be any of the permitted HTTP methods, for example "GET", "POST", "PUT", "DELETE", "HEAD".
+ * @param parameters Request parameters
+ * @return <em>IMFResourceRequest</em> initialized with path to resource, request method and request parameters
  */
 +(IMFResourceRequest*)requestWithPath:(NSString*)path method:(NSString*)method parameters:(NSDictionary*)parameters;
 
 /**
- * Returns an IMFResourceRequest object initialized with path, request method and request parameters. The path should not be nil, otherwise other methods will fail.
+ * Returns an <em>IMFResourceRequest</em> object initialized with path, request method and request parameters. The path should not be nil, otherwise other methods will fail.
  * @param path Path to resource
- * @param method Request method. It can be any of allowed HTTP methods (for example "GET", "POST", "PUT", "DELETE", "HEAD").
- * @param parameters Request parameters.
- * @param timeout Request timeout.
- * @return IMFResourceRequest initialized with path to resource, request method, request parameters and timeot.
+ * @param method Request method. It can be any of the permitted HTTP methods, for example "GET", "POST", "PUT", "DELETE", "HEAD".
+ * @param parameters Request parameters
+ * @param timeout Request timeout
+ * @return <em>IMFResourceRequest</em> initialized with path to resource, request method, request parameters and timeout
  */
 +(IMFResourceRequest*)requestWithPath:(NSString*)path method:(NSString*)method parameters:(NSDictionary*)parameters timeout:(NSTimeInterval)timeoutInterval;
 
 /**
  * Sets request timeout
- * @param timeoutInterval Request timeout interval in seconds.
+ * @param timeoutInterval Request timeout interval in seconds
  */
 -(void)setTimeoutInterval:(NSTimeInterval)timeoutInterval;
 
@@ -86,23 +86,25 @@ enum {
 -(void)setParameters:(NSDictionary*)parameters;
 
 /**
- * Sets HTTP body. Should be used for POST requests.
+ * Sets HTTP body 
+ * <p>
+ * This method should be used for POST requests.
  * @param data The data to be set
  */
 -(void)setHTTPBody:(NSData*)data;
 
 /**
- * Sets request method.
- * @param method Request method. It can be any of allowed HTTP methods (for example "GET", "POST", "PUT", "DELETE", "HEAD").
+ * Sets request method
+ * @param method Request method. It can be any of the permitted HTTP methods, for example "GET", "POST", "PUT", "DELETE", "HEAD".
  */
 -(void)setHTTPMethod:(NSString*)method;
 
 /**
  * Sends request to resource. The request must have been initialized with a valid path.
- * @discussion If the request is completed successfully, the <i>error</> parameter of completion block is nil and the <i>response</i> parameter 
- * contains server response. If the request fails, the <i>error</i> parameter is not nil and contains error description. The <i>response</i> parameter may contain
- * a response fro server, or may be nil.
- * @param completionHandler A block to be called when the request is completed.
+ * @discussion If the request is completed successfully, the <em>error</em> parameter of the completion block is nil and the <em>response</em> parameter 
+ * contains the server response. If the request fails, the <em>error</em> parameter is not nil and contains an error description. The <em>response</em> parameter may contain
+ * a response from the server, or may be nil.
+ * @param completionHandler Block to be called when the request is completed
  */
 -(void)sendWithCompletionHandler:(void(^) (IMFResponse* response, NSError* error))completionHandler;
 
