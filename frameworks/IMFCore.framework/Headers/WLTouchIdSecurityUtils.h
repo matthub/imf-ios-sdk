@@ -10,31 +10,31 @@
 @interface WLTouchIdSecurityUtils : NSObject
 
 /**
- Read a keychain secret
+ Reads a keychain secret
  @param service Service of the keychain secret
  @param account Account of the keychain secret
- @param description Message prompted to user if unlock is neccessary
- @return The secret value
+ @param description Message prompted to user if unlock is necessary
+ @return Secret value
  */
 +(NSString*) _readSecretForService:(NSString*) service
                         andAccount:(NSString*) account
                    withDescription:(NSString*) description;
 
 /**
- Delete keychain secret for service and account
+ Deletes keychain secret for service and account
  @param service Service of the keychain secret
  @param account Account of the keychain secret. If nil, all accounts will be deleted.
  */
 +(BOOL) _deleteSecretForService:(NSString*) service andAccount: (NSString *)account;
 
 /**
- Delete all keychain secrets for a service
- @return True if the supports MIGHT support Touch ID authentication, False if the device definately does not support Touch ID
+ Deletes all keychain secrets for a service
+ @return True if the supports MIGHT support Touch ID authentication, False if the device definitely does not support Touch ID
  */
 +(BOOL) _deviceMightSupportsTouchId;
 
 /**
- Protect a keychain secret using Touch ID
+ Protects a keychain secret using Touch ID
  @param secret The value of the keychain secret to be protected
  @param service Service of the keychain secret
  @param account Account of the keychain secret

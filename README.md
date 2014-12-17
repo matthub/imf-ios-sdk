@@ -9,10 +9,17 @@ When you use Bluemix to create a Mobile Cloud Starter application, BlueMix provi
 multiple services under a single application context. Your mobile application is given 
 access to the following mobile services: Mobile Application Security and Analytics (together known as Advanced Mobile Access, or AMA), Push, and Mobile Data.
 
+<<<<<<< HEAD
 Version: 1.0.1.20141124-1240
 
 ##Installation
 The SDK may be installed either by downloading a [zip file](https://mbaas-catalog.ng.bluemix.net/sdk/ibm-baas-sdk-ios.zip),
+=======
+Version: 0.10
+
+##Installation
+The SDK may be installed either by downloading a [zip file](https://imf-catalog.ng.bluemix.net/sdk/IMF-iOSClientSDK.zip) 
+>>>>>>> develop
 or by installing desired frameworks from [CocoaPods](http://cocoapods.org/). Using CocoaPods 
 can significantly shorten the startup time for new projects and lessen the burden of managing 
 library version requirements as well as the dependencies between them.
@@ -31,6 +38,7 @@ that you can add to your project individually. This allows maximum flexibility, 
 pick and choose the pods required for a given application. The MobileFirst Platform for iOS beta SDK contains the following 
 pods, any of which may be added to your project.
 
+<<<<<<< HEAD
 The list of components is as follows:
 - **[IMFCore](https://hub.jazz.net/project/bluemixmobilesdk/ibmbluemix-ios/overview)** - Implements core services such as networking, logging and analytics and security and authorization.
 - **[IMFData](https://hub.jazz.net/project/bluemixmobilesdk/ibmpush-ios/overview)** - This is the service SDK for data support
@@ -47,6 +55,19 @@ The list of components is as follows:
 - iOS 6.1
 - iOS 7
 - iOS 7.1
+=======
+The SDK comprises the following modules:
+- **[IMFCore] - Implements core services such as networking, logging and analytics and security and authorization.
+- **[IMFData] - This is the module for data support
+- **[IMFPush] - This is the module for push notification support
+- **[IMFFacebookAuthentication] - This is the AMA module for using Facebook as an identity provider
+- **[IMFGoogleAuthentication] - This is the AMA module for using Google as an identity provider
+- **[IMFURLProtocol] - This is the module that enables use of IMFURLProtocol  
+
+###Supported iOS Levels
+- iOS 7
+- iOS 8
+>>>>>>> develop
 
 ##Getting Started:
 Services are associated with a Mobile iOS 8 Cloud application. Connectivity and interaction with
@@ -64,6 +85,7 @@ IMFClient *imfClient = [IMFClient sharedInstance];
 [imfClient initializeWithBackendRoute:<app route> backendGUID:appId];
 ```
 
+<<<<<<< HEAD
 ##Learning More
 To learn more about using the SDK, please consult the following resources:
 - **[Mobile Cloud Services SDK Developer Guide](http://mbaas-gettingstarted.ng.bluemix.net/)**
@@ -71,6 +93,19 @@ To learn more about using the SDK, please consult the following resources:
 - Visit the **[Bluemix Developers Community](https://developer.ibm.com/bluemix/)**
 
 Connect with Bluemix: [Twitter](https://twitter.com/ibmbluemix) |
+=======
+```Swift
+// initialize SDK with IBM Bluemix application ID and route
+IMFClient.sharedInstance().initializeWithBackendRoute(applicationRoute, backendGUID: applicationId);
+```
+
+##Learning More
+- Visit the **[Bluemix Developers Community](https://developer.ibm.com/bluemix/)**
+
+##Connect with Bluemix: 
+
+[Twitter](https://twitter.com/ibmbluemix) |
+>>>>>>> develop
 [YouTube](https://www.youtube.com/playlist?list=PLzpeuWUENMK2d3L5qCITo2GQEt-7r0oqm) |
 [Blog](https://developer.ibm.com/bluemix/blog/) |
 [Facebook](https://www.facebook.com/ibmbluemix) |
@@ -81,5 +116,9 @@ Connect with Bluemix: [Twitter](https://twitter.com/ibmbluemix) |
 US Government Users Restricted Rights - Use, duplication or
 disclosure restricted by GSA ADP Schedule Contract with IBM Corp.*
 
+<<<<<<< HEAD
 [Terms of Use](https://hub.jazz.net/project/bluemixmobilesdk/ibmbluemix-android/overview#https://hub.jazz.net/gerrit/plugins/gerritfs/contents/bluemixmobilesdk%252Fibmbluemix-android/refs%252Fheads%252Fmaster/License.txt) |
+=======
+[Terms of Use](https://hub.jazz.net/project/bluemixmobilesdk/imf-ios-sdk/overview#https://hub.jazz.net/gerrit/plugins/gerritfs/contents/bluemixmobilesdk%2Fimf-ios-sdk/refs%2Fheads%2Fmaster/License.txt |
+>>>>>>> develop
 [Notices]() | Bolts Terms of Use | Bolts Patents
