@@ -32,7 +32,7 @@ pick and choose the pods required for a given application. The MobileFirst Platf
 pods, any of which may be added to your project:
 
 - IMFCore - This module implements core services such as networking, logging and analytics and security and authorization.
-- IMFData - This is the module for data support
+- CloudantToolkit - This is the module for data support
 - IMFPush - This is the module for push notification support
 - IMFFacebookAuthentication - This is the AMA module for using Facebook as an identity provider
 - IMFGoogleAuthentication - This is the AMA module for using Google as an identity provider
