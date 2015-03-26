@@ -11,7 +11,7 @@
 #import "IMFFacebookAuthenticationDelegate.h"
 
 /**
- * Interface for handling Facebook authentication challenges from the IMF Server.
+ * Interface for handling Facebook authentication challenges from Advanced Mobile Access.
  */
 @interface IMFFacebookAuthenticationHandler : NSObject <IMFAuthenticationDelegate>
 
@@ -35,7 +35,7 @@
 - (void) registerWithDelegate:(id<IMFFacebookAuthenticationDelegate>)facebookAuthenticationDelegate;
 
 /**
- * Passes the Facebook access token back to the IMF authorization server
+ * Passes the Facebook access token back to Advanced Mobile Access.
  *
  * @param facebookAccessToken Facebook access token.
  */

@@ -15,9 +15,6 @@
 						<NodeRef refid="2"/>
 						<NodeRef refid="3"/>
 						<NodeRef refid="4"/>
-						<NodeRef refid="5"/>
-						<NodeRef refid="6"/>
-						<NodeRef refid="7"/>
 						
 					</Subnodes>
 				</Node>
@@ -28,9 +25,9 @@
 					<Name>Protocols</Name>
 					<Path>index.html</Path>
 					<Subnodes>
-						<NodeRef refid="8"/>
-						<NodeRef refid="9"/>
-						<NodeRef refid="10"/>
+						<NodeRef refid="5"/>
+						<NodeRef refid="6"/>
+						<NodeRef refid="7"/>
 						
 					</Subnodes>
 				</Node>
@@ -139,80 +136,9 @@
             </Subnodes>
             
         </Node>
-		<Node id="5" type="file" documentType="reference">
-            <Name>IMFData</Name>
-            <Path>Classes/IMFData.html</Path>
-            
-                <Subnodes>
-                <Node type="section">
-                    <Path>Classes/IMFData.html</Path>
-                    <Name>Overview</Name>
-                    <Anchor>overview</Anchor>
-                </Node>
-                <Node type="section">
-                    <Path>Classes/IMFData.html</Path>
-                    <Name>Tasks</Name>
-                    <Anchor>tasks</Anchor>
-                </Node>
-                
-                
-                <Node type="section">
-                    <Path>Classes/IMFData.html</Path>
-                    <Name>Class Methods</Name>
-                    <Anchor>class_methods</Anchor>
-                </Node>
-                
-                
-            </Subnodes>
-            
-        </Node>
-		<Node id="6" type="file" documentType="reference">
-            <Name>IMFDataLoggingBridge</Name>
-            <Path>Classes/IMFDataLoggingBridge.html</Path>
-            
-        </Node>
-		<Node id="7" type="file" documentType="reference">
-            <Name>IMFDataManager</Name>
-            <Path>Classes/IMFDataManager.html</Path>
-            
-                <Subnodes>
-                <Node type="section">
-                    <Path>Classes/IMFDataManager.html</Path>
-                    <Name>Overview</Name>
-                    <Anchor>overview</Anchor>
-                </Node>
-                <Node type="section">
-                    <Path>Classes/IMFDataManager.html</Path>
-                    <Name>Tasks</Name>
-                    <Anchor>tasks</Anchor>
-                </Node>
-                
-                <Node type="section">
-                    <Path>Classes/IMFDataManager.html</Path>
-                    <Name>Properties</Name>
-                    <Anchor>properties</Anchor>
-                </Node>
-                
-                
-                <Node type="section">
-                    <Path>Classes/IMFDataManager.html</Path>
-                    <Name>Class Methods</Name>
-                    <Anchor>class_methods</Anchor>
-                </Node>
-                
-                
-                <Node type="section">
-                    <Path>Classes/IMFDataManager.html</Path>
-                    <Name>Instance Methods</Name>
-                    <Anchor>instance_methods</Anchor>
-                </Node>
-                
-            </Subnodes>
-            
-        </Node>
 		
 		
-        <Node id="8" type="file" documentType="reference">
+        <Node id="5" type="file" documentType="reference">
             <Name>CDTDataObject</Name>
             <Path>Protocols/CDTDataObject.html</Path>
             
@@ -239,7 +165,7 @@
             </Subnodes>
             
         </Node>
-		<Node id="9" type="file" documentType="reference">
+		<Node id="6" type="file" documentType="reference">
             <Name>CDTObjectMapper</Name>
             <Path>Protocols/CDTObjectMapper.html</Path>
             
@@ -266,7 +192,7 @@
             </Subnodes>
             
         </Node>
-		<Node id="10" type="file" documentType="reference">
+		<Node id="7" type="file" documentType="reference">
             <Name>CDTPropertySerializer</Name>
             <Path>Protocols/CDTPropertySerializer.html</Path>
             

@@ -1,14 +1,18 @@
 /*
- * Licensed Materials - Property of IBM
- * (C) Copyright IBM Corp. 2014, 2014. All Rights Reserved.
- * US Government Users Restricted Rights - Use, duplication or
- * disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
+ * IBM Confidential OCO Source Materials
+ *
+ * 5725-I43 Copyright IBM Corp. 2015, 2015
+ *
+ * The source code for this program is not published or otherwise
+ * divested of its trade secrets, irrespective of what has
+ * been deposited with the U.S. Copyright Office.
+ *
  */
 
 #import <Foundation/Foundation.h>
 
 /**
-CDTQuery is a base class for various types of query.  CDTStore performQuery:completionHandler: takes a CDTQuery to perform.  More specific details and configurations can be found in subclasses.
+The base class representing a query.
 */
 @interface CDTQuery : NSObject
 

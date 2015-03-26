@@ -110,7 +110,7 @@ NSString *const GOOGLE_REALM = @"wl_googleRealm";
 
 @end
 
-#define IMF_GOOGLE_AUTHENTICATION_VERSION     @"1.1"
+#define IMF_GOOGLE_AUTHENTICATION_VERSION     @"1.0"
 
 @implementation IMFGoogleAuthentication
 /**

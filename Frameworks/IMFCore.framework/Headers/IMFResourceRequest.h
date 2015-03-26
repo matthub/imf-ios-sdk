@@ -44,25 +44,29 @@ enum {
  * @param path Path to resource
  * @param method Request method. It can be any of the permitted HTTP methods, for example "GET", "POST", "PUT", "DELETE", "HEAD".
  * @return <em>IMFResourceRequest</em> initialized with path to resource and request method
+ 
+ * @exception NSInvalidArgumentException If the URL doesn't start with a protocol (scheme) an NSInvalidArgumentException is thrown
  */
 +(IMFResourceRequest*)requestWithPath:(NSString*)path method:(NSString*)method;
 
 /**
  * Returns an <em>IMFResourceRequest</em> object initialized with path, request method and request parameters. The path should not be nil, otherwise other methods will fail.
- * @param path Path to resource
+ * @param path Full path to resource
  * @param method Request method. It can be any of the permitted HTTP methods, for example "GET", "POST", "PUT", "DELETE", "HEAD".
  * @param parameters Request parameters
  * @return <em>IMFResourceRequest</em> initialized with path to resource, request method and request parameters
+ * @exception NSInvalidArgumentException If the URL doesn't start with a protocol (scheme) an NSInvalidArgumentException is thrown
  */
 +(IMFResourceRequest*)requestWithPath:(NSString*)path method:(NSString*)method parameters:(NSDictionary*)parameters;
 
 /**
  * Returns an <em>IMFResourceRequest</em> object initialized with path, request method and request parameters. The path should not be nil, otherwise other methods will fail.
- * @param path Path to resource
+ * @param path Full path to resource
  * @param method Request method. It can be any of the permitted HTTP methods, for example "GET", "POST", "PUT", "DELETE", "HEAD".
  * @param parameters Request parameters
  * @param timeout Request timeout
  * @return <em>IMFResourceRequest</em> initialized with path to resource, request method, request parameters and timeout
+ * @exception NSInvalidArgumentException If the URL doesn't start with a protocol (scheme) an NSInvalidArgumentException is thrown
  */
 +(IMFResourceRequest*)requestWithPath:(NSString*)path method:(NSString*)method parameters:(NSDictionary*)parameters timeout:(NSTimeInterval)timeoutInterval;
 

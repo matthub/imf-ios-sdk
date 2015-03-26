@@ -1,8 +1,12 @@
 /*
- * Licensed Materials - Property of IBM
- * (C) Copyright IBM Corp. 2014, 2014. All Rights Reserved.
- * US Government Users Restricted Rights - Use, duplication or
- * disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
+ * IBM Confidential OCO Source Materials
+ *
+ * 5725-I43 Copyright IBM Corp. 2015, 2015
+ *
+ * The source code for this program is not published or otherwise
+ * divested of its trade secrets, irrespective of what has
+ * been deposited with the U.S. Copyright Office.
+ *
  */
 
 #import <Foundation/Foundation.h>
@@ -13,22 +17,18 @@
 @protocol CDTPropertySerializer <NSObject>
 
 /**
- Creates a JSON object from a given an NSObject.  If it is not a valid JSON object, an execption is thrown.
-
- @param propertyValue The Objective C property value to be serialized to a JSON dictionary.
- @param error Errors if any that occured during serialization.
- @return The JSON Object object that will be stored in the JSON document.
- 
+ Get the JSON representation for the property value.
+ @param propertyValue The navtive property value to be serialized to a JSON dictionary.
+ @param error Error that occurred during serilization or nil
+ @return The JSON representation for the property value.
  */
 -(id) propertyValueToJSONValue: (id) propertyValue error: (NSError**) error;
 
 /**
- Converts the NSDictionary to an NSObject, given an JSON NSDictionary.  The data type can be used to identify the NSDictionary as corresponding to a native class (without parsing its contents).
-
- @param jsonValue Specifies the JSON Object to convert back to the original NSObject.  Use the data type to identify the Class.
- @param error Specifies any errors that occured during serialization.
- @return An NSObject with the corresponding data type Class.  The object contains the JSON content.
-
+ Get the property value from the JSON representation
+ @param jsonValue The input JSON representation
+ @param error Error that occurred during deserilization or nil
+ @return The native property value
  */
 -(id) jsonValueToPropertyValue: (id) jsonValue error: (NSError**) error;
 

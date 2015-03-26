@@ -1,8 +1,12 @@
 /*
- * Licensed Materials - Property of IBM
- * (C) Copyright IBM Corp. 2014, 2014. All Rights Reserved.
- * US Government Users Restricted Rights - Use, duplication or
- * disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
+ * IBM Confidential OCO Source Materials
+ *
+ * 5725-I43 Copyright IBM Corp. 2015, 2015
+ *
+ * The source code for this program is not published or otherwise
+ * divested of its trade secrets, irrespective of what has
+ * been deposited with the U.S. Copyright Office.
+ *
  */
 
 #import <Foundation/Foundation.h>
@@ -18,18 +22,18 @@
 @protocol CDTObjectMapper <NSObject>
 
 /**
- Given a native object, return the corresponding CDTDocumentRevision to persist.
- @param object The native object to persist.
- @param error Will be set upon problems.  Errors may be reported with a non-failing conversion.  If nil is returned an error should always be returned.
- @return the corresponding CDTDocumentRevision
+ Maps a native Object to a CDTDocumentRevision.
+ @param object The input Object
+ @param error Error found during mapping or nil
+ @return the mapped CDTDocumentRevision
  */
 -(CDTDocumentRevision*) objectToDocument: (id) object error: (NSError**) error;
 
 /**
- Given a CDTDocumentRevision, hydrate a native object with the contents of the CDTDocumentRevision
- @param document The CDTDocumentRevision to be used to hydrate the native object.
- @param error Will be set upon problems.  Errors may be reported with a non-failing conversion.  If nil is returned an error should always be returned.
- @return the corresponding CDTDocumentRevision
+ Maps a CDTDocumentRevision to a native Object.
+ @param document The CDTDocumentRevision to map
+ @param error Error found during mapping or nil
+ @return the mapped native Object
  */
 -(id) documentToObject: (CDTDocumentRevision*) document error: (NSError**) error;
 
@@ -48,9 +52,9 @@
 -(NSString*) classNameForDataType: (NSString*) dataType;
 
 /**
- Associates a data type with a Class
+ Associates a data type with a class name
  @param dataType The data type to associate with the class
- @param className The class to be associated with the dataType
+ @param className The class name to be associated with the dataType
  */
 -(void)setDataType:(NSString*)dataType forClassName: (NSString*)className;
 

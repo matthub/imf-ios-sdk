@@ -70,7 +70,7 @@ NSString *const FACEBOOK_APP_ID_KEY = @"facebookAppId";
 
 @end
 
-#define IMF_FACEBOOK_AUTHENTICATION_VERSION     @"1.1"
+#define IMF_FACEBOOK_AUTHENTICATION_VERSION     @"1.0"
 
 @implementation IMFFacebookAuthentication
 /**
