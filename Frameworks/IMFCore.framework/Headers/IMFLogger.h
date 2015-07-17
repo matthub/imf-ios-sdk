@@ -38,25 +38,25 @@ typedef NS_ENUM(NSInteger, IMFLogLevel) {
 };
 
 /**
- <emIMFLogger</em> is a drop-in replacement for nslog.  It is a feature-rich
+ <em>IMFLogger</em> is a drop-in replacement for nslog.  It is a feature-rich
  log class, with standard logger capabilities like levels, filters,
- and well-structured output formatting.  <emIMFLogger</em> also has the ability
+ and well-structured output formatting.  <em>IMFLogger</em> also has the ability
  to attach additional metadata (by passing an <em>NSDictionary</em> object) to
  log output.
  
- <emIMFLogger</em> can also capture log output to local application storage
+ <em>IMFLogger</em> can also capture log output to local application storage
  within a storage size threshold with log rollover so that the captured
  logs can be sent to a server for debugging production-time problems
  occurring in the field.
  
- <emIMFLogger</em> has built-in capability to capture uncaught exceptions, which
- appear to the end-user as a crashed application.  The presence of
- IMFLogger in an application is sufficient to enable this capture.
+ <em>IMFLogger</em> has the capability to capture uncaught exceptions, which
+ appear to the end-user as a crashed application. Call the method
+ <em>captureUncaughtExceptions</em> to enable this capture.
  
  Some parts of IMF framework code have already been instrumented with
- <emIMFLogger</em> API calls.
+ <em>IMFLogger</em> API calls.
  
- As a convenience, developers may use <emIMFLogger</em> macros.  These macros
+ As a convenience, developers may use <em>IMFLogger</em> macros.  These macros
  automatically record the class name, file name, method, and line number
  of the IMFLogger function call in the metadata of the log record.
  
@@ -182,14 +182,14 @@ typedef NS_ENUM(NSInteger, IMFLogLevel) {
 #pragma mark Getters and Setters
 
 /** 
- Sets the name for the <em>IMFLogger<em> instance
- @param name <em>IMFLogger<em> instance
+ Sets the name for the <em>IMFLogger</em> instance
+ @param name <em>IMFLogger</em> instance
  */
 -(void) setName:(NSString*) name;
 
 /** 
- Gets for the name of the <em>IMFLogger<em> instance
- @return Name of the <em>IMFLogger<em> instance
+ Gets for the name of the <em>IMFLogger</em> instance
+ @return Name of the <em>IMFLogger</em> instance
  */
 -(NSString*) name;
 
@@ -200,7 +200,7 @@ typedef NS_ENUM(NSInteger, IMFLogLevel) {
  <p>
  If an instance exists for the name parameter, that instance is returned.
  @param name String denoting name that must be printed with log messages. The value is passed through to <em>NSLog</em> and recorded when log capture is enabled.
- @return <em>IMFLogger<em> instance used to invoke log calls
+ @return <em>IMFLogger</em> instance used to invoke log calls
  */
 +(IMFLogger*) loggerForName: (NSString*) name;
 
@@ -274,7 +274,9 @@ typedef NS_ENUM(NSInteger, IMFLogLevel) {
 +(BOOL) uncaughtExceptionDetected;
 
 /**
- Enables <em>IMFLogger</em> to capture uncaught exceptions
+ Enables <em>IMFLogger</em> to capture all uncaught exceptions.
+ This method does not override, but works in conjunction with,
+ previous implementations of <em>NSSetUncaughtExceptionHandler()</em>.
  */
 +(void) captureUncaughtExceptions;
 
