@@ -106,4 +106,9 @@
  */
 +(NSString*) deployment;
 
+/**
+ @return The build date for this SDK.
+ */
++(NSString*) buildDate;
+
 @end
