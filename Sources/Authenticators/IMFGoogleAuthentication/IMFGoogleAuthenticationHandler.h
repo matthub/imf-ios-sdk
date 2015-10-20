@@ -13,7 +13,7 @@
 
 @protocol IMFGoogleAuthenticationDelegate;
 /**
- *  Provides functionalities for connecting Advanced Mobile Access with Google.
+ *  Provides functionalities for connecting Mobile Client Access with Google.
  */
 @interface IMFGoogleAuthenticationHandler : NSObject <IMFAuthenticationDelegate> {
     
@@ -41,7 +41,7 @@
 -(void) registerWithDelegate:(id<IMFGoogleAuthenticationDelegate>) googleAuthenticationDelegate;
 
 /**
- *  Passes the googleIdToken back to Advanced Mobile Access.
+ *  Passes the googleIdToken back to Mobile Client Access.
  *
  *  @param googleIdToken Google id token received as a result of the Google authentication
  */

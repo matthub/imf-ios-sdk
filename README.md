@@ -7,7 +7,7 @@ the iOS mobile app and with the MobileFirst Platform for iOS in Bluemix.
 
 When you use Bluemix to create an application,
 multiple services are provisioned under a single application context. Your mobile application is given
-access to the following mobile services: Advanced Mobile Access (which includes security, analytics, and logging), Push for iOS8, and Cloudant NoSQL DB.
+access to the following mobile services: Mobile Client Access (which includes security, analytics, and logging), Push for iOS8, and Cloudant NoSQL DB.
 
 Version: 1.0.0
 
@@ -32,8 +32,8 @@ pods, any of which you can add to your project:
 - IMFData: Implements security integration between IMFCore and CloudantToolkit.
 - CloudantToolkit: Enables interaction with both local and remote Cloudant datastores.
 - IMFPush: Enables push notification support.
-- IMFFacebookAuthentication: Enables Facebook as an identity provider with the Advanced Mobile Access service.
-- IMFGoogleAuthentication: Enables Google as an identity provider with the Advanced Mobile Access service.
+- IMFFacebookAuthentication: Enables Facebook as an identity provider with the Mobile Client Access service.
+- IMFGoogleAuthentication: Enables Google as an identity provider with the Mobile Client Access service.
 - IMFURLProtocol: Enables use of IMFURLProtocol (NSURLRequest).
 
 ###Supported iOS levels
