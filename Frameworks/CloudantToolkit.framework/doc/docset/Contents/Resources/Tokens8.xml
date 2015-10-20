@@ -4,7 +4,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/intf/CDTPropertySerializer</TokenIdentifier>
-			<Abstract type="html">Provides a custom serializer for a class.  You can handle cross-platform serialization of any object or override the default serialization of an object.  For example, CDTDataObjectMapper serializes NSDate objects.  However, you can use this extension to override how NSDate is serialized.  You might also provide serialization of CLLocation objects, which are currently ignored by the CDTDataObjectMapper.</Abstract>
+			<Abstract type="html">The CloudantToolkit framework has been deprecated.  Please migrate to https://github.com/cloudant/CDTDatastore</Abstract>
 			<DeclaredIn>CDTPropertySerializer.h</DeclaredIn>
             
 			

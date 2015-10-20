@@ -12,8 +12,11 @@
 #import <Foundation/Foundation.h>
 
 /**
+ @warning The CloudantToolkit framework has been deprecated.  Please migrate to https://github.com/cloudant/CDTDatastore
+ 
  Provides a custom serializer for a class.  You can handle cross-platform serialization of any object or override the default serialization of an object.  For example, CDTDataObjectMapper serializes NSDate objects.  However, you can use this extension to override how NSDate is serialized.  You might also provide serialization of CLLocation objects, which are currently ignored by the CDTDataObjectMapper.
  */
+__deprecated
 @protocol CDTPropertySerializer <NSObject>
 
 /**

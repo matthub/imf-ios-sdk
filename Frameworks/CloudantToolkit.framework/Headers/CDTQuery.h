@@ -12,8 +12,11 @@
 #import <Foundation/Foundation.h>
 
 /**
+ @warning The CloudantToolkit framework has been deprecated.  Please migrate to https://github.com/cloudant/CDTDatastore
+ 
 The base class representing a query.
 */
+__deprecated
 @interface CDTQuery : NSObject
 
 @end

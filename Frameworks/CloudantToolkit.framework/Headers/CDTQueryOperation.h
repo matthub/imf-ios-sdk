@@ -19,9 +19,12 @@
 extern NSUInteger CDTQueryDefaultMaximumResults;
 
 /**
+ @warning The CloudantToolkit framework has been deprecated.  Please migrate to https://github.com/cloudant/CDTDatastore
+ 
  CDTQueryOperation handles query operations.
  To use, initialize an CDTQueryOperation object with either an CDTQuery or an CDTQueryCursor returned by a prior CDTQueryOperation. Create and assign a recordFetchBlock to handle your results. Create and assign a queryCompletionBlock to receive any error during the query. You can limit the number of results returned by setting the resultsLimit property. CDTQueryCursor in the queryCompletion block will be set if there are more results to return. You can then initialize a new CDTQueryOperation with the cursor to continue the query. Note that running a query with CDTQueryCursor will cause a new query to run. If the result set has changed the result returned may not start where the last query left off. Records may be repeated or missed when continuing a query with CDTQueryCursor.
  */
+__deprecated
 @interface CDTQueryOperation : CDTStoreOperation
 
 

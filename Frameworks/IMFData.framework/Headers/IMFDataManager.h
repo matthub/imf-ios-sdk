@@ -26,8 +26,11 @@
 @class IMFDataManager;
 
 /**
+ @warning The IMFData framework has been deprecated.  Please migrate to https://github.com/cloudant/CDTDatastore
+ 
  The IMFDataManager is the central point for interacting with the Cloudant NoSQL database
  */
+__deprecated
 @interface IMFDataManager : NSObject
 
 /**
@@ -92,6 +95,8 @@
 @end
 
 /**
+ @warning The IMFData framework has been deprecated.  Please migrate to https://github.com/cloudant/CDTDatastore
+ 
  IMFData provides the current version of the IMFData framework.
  */
 @interface IMFData : NSObject

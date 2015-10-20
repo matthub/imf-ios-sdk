@@ -4,7 +4,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/cl/CDTQuery</TokenIdentifier>
-			<Abstract type="html">The base class representing a query.</Abstract>
+			<Abstract type="html">The CloudantToolkit framework has been deprecated.  Please migrate to https://github.com/cloudant/CDTDatastore</Abstract>
 			<DeclaredIn>CDTQuery.h</DeclaredIn>
             
 			

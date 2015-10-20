@@ -4,7 +4,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/cl/CloudantToolkit</TokenIdentifier>
-			<Abstract type="html">The CloudantToolkit class allows you to get the version and build date.</Abstract>
+			<Abstract type="html">The CloudantToolkit framework has been deprecated.  Please migrate to https://github.com/cloudant/CDTDatastore</Abstract>
 			<DeclaredIn>CloudantToolkit.h</DeclaredIn>
             
 			

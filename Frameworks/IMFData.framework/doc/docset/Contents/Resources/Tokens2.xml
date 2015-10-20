@@ -4,7 +4,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/cl/IMFDataManager</TokenIdentifier>
-			<Abstract type="html">The IMFDataManager is the central point for interacting with the Cloudant NoSQL database</Abstract>
+			<Abstract type="html">The IMFData framework has been deprecated.  Please migrate to https://github.com/cloudant/CDTDatastore</Abstract>
 			<DeclaredIn>IMFDataManager.h</DeclaredIn>
             
 			

@@ -58,20 +58,23 @@ enum {
 -(void) initializeWithBackendRoute: (NSString*)backendRoute backendGUID:(NSString*)backendGUID;
 
 /**
+ *
  * Add a global header that is sent on each request
  * <p>
  * Each <em>IMFRequest</em> instance will use this header as an HTTP header.
  *
  * @param headerName Header name/key
  * @param value Header value
+ * @deprecated Since version 1.1.0
  */
--(void) addGlobalHeader: (NSString *) headerName headerValue:(NSString *)value;
+-(void) addGlobalHeader: (NSString *) headerName headerValue:(NSString *)value DEPRECATED_ATTRIBUTE;
 
 /**
  * Removes a global header from the list of global headers to be added to all requests.
  * @param headerName Header to remove
+ * @deprecated Since version 1.1.0
  */
-- (void) removeGlobalHeader:(NSString*)headerName;
+- (void) removeGlobalHeader:(NSString*)headerName DEPRECATED_ATTRIBUTE;
 
 /**
  * Registers a delegate that will handle authentication for the specified realm

@@ -11,8 +11,11 @@
 
 #import <Foundation/Foundation.h>
 /**
+ @warning The CloudantToolkit framework has been deprecated.  Please migrate to https://github.com/cloudant/CDTDatastore
+ 
  The CDTDataObjectMetadata class defines metadata that is required to manage the CDTDataObject object.
  */
+__deprecated
 @interface CDTDataObjectMetadata : NSObject
 
 /** A string that uniquely identifies this object. This will be the docId of the CDTDocumentRevision that is persisted. */

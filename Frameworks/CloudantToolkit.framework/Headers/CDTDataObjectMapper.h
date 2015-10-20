@@ -15,8 +15,11 @@
 @protocol CDTPropertySerializer;
 
 /**
+ @warning The CloudantToolkit framework has been deprecated.  Please migrate to https://github.com/cloudant/CDTDatastore
+ 
  The CDTDataObjectMapper is used to convert data objects from Object to CDTDocumentRevision (and vice versa).  It conforms to the CDTObjectMapper protocol.
  */
+__deprecated
 @interface CDTDataObjectMapper : NSObject<CDTObjectMapper>
 
 /**

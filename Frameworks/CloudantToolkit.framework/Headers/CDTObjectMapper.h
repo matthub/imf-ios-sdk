@@ -19,6 +19,7 @@
 /**
  Provides the ability to insert custom code to map native objects onto CDTDocumentRevisions.  This allows the developer to program with native objects and persist them to Cloudant.
  */
+__deprecated
 @protocol CDTObjectMapper <NSObject>
 
 /**

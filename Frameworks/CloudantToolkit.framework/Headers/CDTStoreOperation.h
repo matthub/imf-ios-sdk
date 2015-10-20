@@ -17,8 +17,11 @@
 @class CDTStore;
 
 /**
+ @warning The CloudantToolkit framework has been deprecated.  Please migrate to https://github.com/cloudant/CDTDatastore
+ 
  * A Database operation is the base class for all operations having to do with the Database.
  */
+__deprecated
 @interface CDTStoreOperation : CDTOperation
 
 /**

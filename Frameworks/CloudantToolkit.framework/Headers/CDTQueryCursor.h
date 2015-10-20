@@ -11,11 +11,14 @@
 
 #import <Foundation/Foundation.h>
 /**
+ @warning The CloudantToolkit framework has been deprecated.  Please migrate to https://github.com/cloudant/CDTDatastore
+ 
  * Query Cursor is an opaque object returned by CDTQueryOperation.
  * If returned by CDTQueryOperation it indicates that there may be more results to return
  * The user can initialize a new CDTQueryOperation with this cursor to fetch the next 
  *    page of results.
  */
+__deprecated
 @interface CDTQueryCursor : NSObject
 
 /**

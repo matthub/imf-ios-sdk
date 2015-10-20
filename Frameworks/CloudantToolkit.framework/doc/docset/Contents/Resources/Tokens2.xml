@@ -4,7 +4,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/cl/CDTDataObjectMetadata</TokenIdentifier>
-			<Abstract type="html">The CDTDataObjectMetadata class defines metadata that is required to manage the CDTDataObject object.</Abstract>
+			<Abstract type="html">The CloudantToolkit framework has been deprecated.  Please migrate to https://github.com/cloudant/CDTDatastore</Abstract>
 			<DeclaredIn>CDTDataObjectMetadata.h</DeclaredIn>
             
 			

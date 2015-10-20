@@ -13,8 +13,11 @@
 #import <CloudantToolkit/CDTQuery.h>
 
 /**
+ @warning The CloudantToolkit framework has been deprecated.  Please migrate to https://github.com/cloudant/CDTDatastore
+ 
  * CDTCloudant query provides the convenience of using NSPredicates and performing a query on either a remote or local database.  Cloudant queries can also be specified directly as an NSDictionary.
  */
+__deprecated
 @interface CDTCloudantQuery : CDTQuery
 
 /**

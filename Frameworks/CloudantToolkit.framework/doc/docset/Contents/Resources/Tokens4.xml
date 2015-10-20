@@ -4,7 +4,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/cl/CDTStore</TokenIdentifier>
-			<Abstract type="html">The CDTStore class is a class cluster that abstracts an common interface for local and remote Cloudant data stores.  Local data stores use the CDTDatastore and remote data stores use REST API to modify the remote data store.</Abstract>
+			<Abstract type="html">The CloudantToolkit framework has been deprecated.  Please migrate to https://github.com/cloudant/CDTDatastore</Abstract>
 			<DeclaredIn>CDTStore.h</DeclaredIn>
             
 			

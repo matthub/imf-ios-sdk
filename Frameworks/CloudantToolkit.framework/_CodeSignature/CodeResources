@@ -6,67 +6,67 @@
 	<dict>
 		<key>Headers/CDTCloudantQuery.h</key>
 		<data>
-		mB7gWfn0s88wR+IZaT2xWfFzYEI=
+		ytuiFu8eedRHskRIzq7CISSW+wc=
 		</data>
 		<key>Headers/CDTCloudantQueryOperation.h</key>
 		<data>
-		LMJSYn15V+2afspkFSiuSTv9FIo=
+		pvykMKxNrEhGyXFS6Mfkj+0VmU8=
 		</data>
 		<key>Headers/CDTDataObject.h</key>
 		<data>
-		0W+ulv6AGEda1W5+FcN0X+3Zqvs=
+		MX7xdECElrevdRzoOzhSPjNOHxI=
 		</data>
 		<key>Headers/CDTDataObjectMapper.h</key>
 		<data>
-		uhTpOHAr5TcqVJZa9+KYLaOp+m4=
+		JFzrcY1G7zU/tsZjfvC70OW872A=
 		</data>
 		<key>Headers/CDTDataObjectMetadata.h</key>
 		<data>
-		vCaKRV1Y8GAJwsq3zq/MZaWiX0g=
+		YRDzzIpngPJw4l9KSYQlp5V3MNs=
 		</data>
 		<key>Headers/CDTHttpHelper.h</key>
 		<data>
-		MvIGvR8e8vMt3OiWAqSdxUUUNKo=
+		+S6E9G/PX5OpIFXkShfgRUAafB4=
 		</data>
 		<key>Headers/CDTObjectMapper.h</key>
 		<data>
-		JXQCwh5HQDUOECOU4GJPHy83G2w=
+		ZZG8XAORsUdAt2nU6F//pKqZ2hU=
 		</data>
 		<key>Headers/CDTOperation.h</key>
 		<data>
-		CCtxwcp70z0XOafGPuwIczJ6qX4=
+		sUWaSCrt/pkSg+Vz3/lHvJ1OjYc=
 		</data>
 		<key>Headers/CDTPropertySerializer.h</key>
 		<data>
-		bYBPqD5w1Fehq3njr1cuLggC4ps=
+		8nb1htfRzJy5X8ozCKDN+/PV7vo=
 		</data>
 		<key>Headers/CDTQuery.h</key>
 		<data>
-		4nVjLifHqbPGm0lAJxPG1p7ypms=
+		mNeC9cl57WYAyyDzmzhtHl3kbfc=
 		</data>
 		<key>Headers/CDTQueryCursor.h</key>
 		<data>
-		nfDVPP3QxDY+uDLpttLlk5amNOU=
+		9GQOJDs/pfujGMFhdw+CqSMuR3s=
 		</data>
 		<key>Headers/CDTQueryOperation.h</key>
 		<data>
-		XM0YMMUgWW8c9GULMBvmLCKuSG8=
+		O+gIEtULGmwoLcFTatV1gJvCXjg=
 		</data>
 		<key>Headers/CDTStore.h</key>
 		<data>
-		Sp5U4c6fWEC+ZfKU7o7mxHsKnLc=
+		Kc5XcHIvp6sW7wjSmB+lgSbWURc=
 		</data>
 		<key>Headers/CDTStoreOperation.h</key>
 		<data>
-		21VyC+xABwwBbHsGihZlEhTCKTU=
+		h4JQ8H3irplDcAjJ+++8dyFkZCM=
 		</data>
 		<key>Headers/CloudantToolkit.h</key>
 		<data>
-		SEJq6vm3wKYf/rrE3W+w6dOKj0Q=
+		A6/WOu8T/fjeHFzHPLvnsnUNkrc=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		8Xk1AsE/h/T4Rcw91RiLvlFfCjw=
+		xSbiv6C+1LkaF8+3pVWy+33YrvU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -77,63 +77,63 @@
 	<dict>
 		<key>Headers/CDTCloudantQuery.h</key>
 		<data>
-		mB7gWfn0s88wR+IZaT2xWfFzYEI=
+		ytuiFu8eedRHskRIzq7CISSW+wc=
 		</data>
 		<key>Headers/CDTCloudantQueryOperation.h</key>
 		<data>
-		LMJSYn15V+2afspkFSiuSTv9FIo=
+		pvykMKxNrEhGyXFS6Mfkj+0VmU8=
 		</data>
 		<key>Headers/CDTDataObject.h</key>
 		<data>
-		0W+ulv6AGEda1W5+FcN0X+3Zqvs=
+		MX7xdECElrevdRzoOzhSPjNOHxI=
 		</data>
 		<key>Headers/CDTDataObjectMapper.h</key>
 		<data>
-		uhTpOHAr5TcqVJZa9+KYLaOp+m4=
+		JFzrcY1G7zU/tsZjfvC70OW872A=
 		</data>
 		<key>Headers/CDTDataObjectMetadata.h</key>
 		<data>
-		vCaKRV1Y8GAJwsq3zq/MZaWiX0g=
+		YRDzzIpngPJw4l9KSYQlp5V3MNs=
 		</data>
 		<key>Headers/CDTHttpHelper.h</key>
 		<data>
-		MvIGvR8e8vMt3OiWAqSdxUUUNKo=
+		+S6E9G/PX5OpIFXkShfgRUAafB4=
 		</data>
 		<key>Headers/CDTObjectMapper.h</key>
 		<data>
-		JXQCwh5HQDUOECOU4GJPHy83G2w=
+		ZZG8XAORsUdAt2nU6F//pKqZ2hU=
 		</data>
 		<key>Headers/CDTOperation.h</key>
 		<data>
-		CCtxwcp70z0XOafGPuwIczJ6qX4=
+		sUWaSCrt/pkSg+Vz3/lHvJ1OjYc=
 		</data>
 		<key>Headers/CDTPropertySerializer.h</key>
 		<data>
-		bYBPqD5w1Fehq3njr1cuLggC4ps=
+		8nb1htfRzJy5X8ozCKDN+/PV7vo=
 		</data>
 		<key>Headers/CDTQuery.h</key>
 		<data>
-		4nVjLifHqbPGm0lAJxPG1p7ypms=
+		mNeC9cl57WYAyyDzmzhtHl3kbfc=
 		</data>
 		<key>Headers/CDTQueryCursor.h</key>
 		<data>
-		nfDVPP3QxDY+uDLpttLlk5amNOU=
+		9GQOJDs/pfujGMFhdw+CqSMuR3s=
 		</data>
 		<key>Headers/CDTQueryOperation.h</key>
 		<data>
-		XM0YMMUgWW8c9GULMBvmLCKuSG8=
+		O+gIEtULGmwoLcFTatV1gJvCXjg=
 		</data>
 		<key>Headers/CDTStore.h</key>
 		<data>
-		Sp5U4c6fWEC+ZfKU7o7mxHsKnLc=
+		Kc5XcHIvp6sW7wjSmB+lgSbWURc=
 		</data>
 		<key>Headers/CDTStoreOperation.h</key>
 		<data>
-		21VyC+xABwwBbHsGihZlEhTCKTU=
+		h4JQ8H3irplDcAjJ+++8dyFkZCM=
 		</data>
 		<key>Headers/CloudantToolkit.h</key>
 		<data>
-		SEJq6vm3wKYf/rrE3W+w6dOKj0Q=
+		A6/WOu8T/fjeHFzHPLvnsnUNkrc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>

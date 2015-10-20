@@ -16,8 +16,11 @@
 @class CDTQuery;
 
 /**
+ @warning The CloudantToolkit framework has been deprecated.  Please migrate to https://github.com/cloudant/CDTDatastore
+ 
  The CDTStore class is a class cluster that abstracts an common interface for local and remote Cloudant data stores.  Local data stores use the CDTDatastore and remote data stores use REST API to modify the remote data store.
  */
+__deprecated
 @interface CDTStore : NSObject
 
 /** Specifies the CDTObjectMapper to use for mapping CDTDocumentRevision objects to objects and vice versa. */

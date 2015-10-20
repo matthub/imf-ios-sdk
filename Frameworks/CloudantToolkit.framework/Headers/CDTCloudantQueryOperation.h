@@ -12,6 +12,10 @@
 #import "CDTQueryOperation.h"
 @class CDTCloudantQuery;
 
+/**
+ @warning The CloudantToolkit framework has been deprecated.  Please migrate to https://github.com/cloudant/CDTDatastore
+*/
+__deprecated
 @interface CDTCloudantQueryOperation : CDTQueryOperation
 
 /**
