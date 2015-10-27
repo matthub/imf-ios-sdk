@@ -96,5 +96,22 @@ typedef NS_ENUM(NSInteger, IMFAuthorizationPerisistencePolicy) {
  */
 - (void) setAuthorizationPersistencePolicy: (IMFAuthorizationPerisistencePolicy) policy;
 
+/**
+ * A response is an OAuth error response only if,
+ * 1. it's status is 401 or 403
+ * 2. The value of the "WWW-Authenticate" header contains 'Bearer'
+ *
+ * @param response to check the conditions for.
+ * @return true if the response satisfies both conditions
+ */
+- (BOOL) isAuthorizationRequired: (IMFResponse *)response;
+
+/**
+ * Check if the params came from response that requires authorization
+ * @param statusCode of the response
+ * @param authorizationHeaderValue value of 'WWW-Authenticate' header
+ * @return true if status is 401 or 403 and The value of the header contains 'Bearer'
+ */
+- (BOOL) isAuthorizationRequired: (int)statusCode authorizationHeaderValue: (NSString*)authorizationHeaderValue;
 
 @end
