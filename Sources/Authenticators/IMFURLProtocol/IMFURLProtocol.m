@@ -8,13 +8,6 @@
  * been deposited with the U.S. Copyright Office.
  *
  */
-//
-//  IMFURLProtocol.m
-//  IMFURLProtocol
-//
-//  Created by Asaf Manassen on 3/2/15.
-//  Copyright (c) 2015 Asaf Manassen. All rights reserved.
-//
 
 #import "IMFURLProtocol.h"
 
@@ -127,7 +120,7 @@
     if ([self isOAuthError]) {
         [[IMFAuthorizationManager sharedInstance] obtainAuthorizationHeaderWithCompletionHandler:^(IMFResponse* imfResponse, NSError *error) {
             if (error) {
-                NSLog(@"Failed to get access token. Error: %@", [error localizedDescription]);
+                 NSLog(@"Failed to get access token. Error: %@", [error localizedDescription]);
             } else {
                 [self sendRequestToProtectedResource];
             }
@@ -166,7 +159,7 @@
     }
 }
 
-#define IMF_URL_PROTOCOL_VERSION    @"1.0"
+#define IMF_URL_PROTOCOL_VERSION    @"1.1"
 /**
  * Returns the current IMFURLProtocol version
  */

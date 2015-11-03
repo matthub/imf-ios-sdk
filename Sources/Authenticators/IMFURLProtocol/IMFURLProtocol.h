@@ -4,13 +4,6 @@
  * US Government Users Restricted Rights - Use, duplication or
  * disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
  */
-//
-//  IMFURLProtocol.h
-//  IMFURLProtocol
-//
-//  Created by Asaf Manassen on 3/2/15.
-//  Copyright (c) 2015 Asaf Manassen. All rights reserved.
-//
 
 #import <Foundation/Foundation.h>
 #import <IMFCore/IMFCore.h>
