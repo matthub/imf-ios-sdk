@@ -10,7 +10,8 @@
  */
 
 #import "IMFDefaultGoogleAuthenticationDelegate.h"
-
+#import <GoogleOpenSource/GoogleOpenSource.h>
+#import <GooglePlus/GooglePlus.h>
 @implementation IMFDefaultGoogleAuthenticationDelegate
 
 - (void) authenticationHandler:(IMFGoogleAuthenticationHandler *)authenticationHandler didReceiveAuthenticationRequestForClientId:(NSString *)clientId {

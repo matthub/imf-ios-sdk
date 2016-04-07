@@ -48,6 +48,14 @@
  */
 - (void) didFailFacebookAuthenticationWithUserInfo:(NSDictionary*) userInfo;
 
+
+/**
+ *  Logs out current logged in user from Google.
+ *
+ *  @param completionHandler - completion handler to be called after request is complete.
+ */
+- (void) logout:(void(^) (IMFResponse* response, NSError* error))completionHandler;
+
 @end
 
 @interface IMFFacebookAuthentication : NSObject

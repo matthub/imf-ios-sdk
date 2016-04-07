@@ -58,6 +58,11 @@ NSString *const GOOGLE_REALM = @"wl_googleRealm";
     IMFLogDebugWithName(IMF_OAUTH_PACKAGE, @"[OAuth] registerWithDelegate end");
 }
 
+- (void) logout:(void(^) (IMFResponse* response, NSError* error))completionHandler {
+    [[GPPSignIn sharedInstance] signOut];
+    [[GPPSignIn sharedInstance] disconnect];
+    [[IMFAuthorizationManager sharedInstance] logout: completionHandler];
+}
 -(void) authenticationContext:(id<IMFAuthenticationContext>)context didReceiveAuthenticationChallenge:(NSDictionary *)challenge {
     if (self.googleAuthenticationDelegate != nil){
         [self setCurrentContext:context];
