@@ -8,6 +8,7 @@ When you use Bluemix to create an application,
 multiple services are provisioned under a single application context. Your mobile application is given
 access to the following mobile services: Mobile Client Access (which includes security, analytics, and logging), Push Notifications, and Cloudant NoSQL DB.
 
+
 Version: 1.0.0
 
 ###Installing the SDK
