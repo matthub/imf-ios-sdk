@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/IMFAuthorizationManager.h</key>
 		<data>
-		1XV2zq0i8KASvSxMB6lCQD08cyU=
+		C+Qbtvf5JMtuFeqz2vmq98Qqv9U=
 		</data>
 		<key>Headers/IMFClient.h</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		8TQvhdcHRX5nlb220GIYbG+gADY=
+		560VnqOK6FRdAeWGHPkebwyre3M=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -100,11 +100,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1XV2zq0i8KASvSxMB6lCQD08cyU=
+			C+Qbtvf5JMtuFeqz2vmq98Qqv9U=
 			</data>
 			<key>hash2</key>
 			<data>
-			yxorB/wet8sV4o9Bp1QsjwFMnmfPj3WYjc4kAEnzJ2U=
+			Un1UhKvQ0ujH+r1+LJhWY20EDY64n0lvxXIDm9bt4Uw=
 			</data>
 		</dict>
 		<key>Headers/IMFClient.h</key>
