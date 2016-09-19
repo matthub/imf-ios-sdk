@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/IMFPushClient.h</key>
 		<data>
-		P7P386QWWAMtPV0vbWtX6yft1hI=
+		pCTLISDAjzoO/Hny7Jl+A+TJNAk=
 		</data>
 		<key>Headers/IMFResponse+IMFPushCategory.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		wOUI0Hh9a6pnMNdX8D2NQnNHi98=
+		kLhNjng+vN2SHDIU4fBcWVfe26w=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -42,11 +42,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			P7P386QWWAMtPV0vbWtX6yft1hI=
+			pCTLISDAjzoO/Hny7Jl+A+TJNAk=
 			</data>
 			<key>hash2</key>
 			<data>
-			JjOXUsvE10+u0IN+2Wotlmn7bO2ypUOFkUYqP//mUJ8=
+			L5vrnxnxr8O/d+8FSJlDGK+mm4/tI1qtVH9nyKje5eQ=
 			</data>
 		</dict>
 		<key>Headers/IMFResponse+IMFPushCategory.h</key>
